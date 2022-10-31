@@ -1,0 +1,26 @@
+h1 {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    background-color: #347aeb;
+    display: flex;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 6px 10px 1px rgba(0,0,0,0.5);
+    justify-content: end;
+}
+ul li {
+    list-style: none;
+}
+ul a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+ul a:hover {
+    background-color: rgba(133, 180, 255, 0.706)
+}
