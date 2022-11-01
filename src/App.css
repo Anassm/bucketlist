@@ -1,0 +1,15 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 0;
+}
+.active {
+    background-color: #0048bd;
+    color: #fff;
+}
+/*
+h1 h2 h3 h4 h5 h6 span p {
+    padding: 0px 6%
+}
+*/
