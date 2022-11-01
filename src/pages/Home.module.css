@@ -1,0 +1,13 @@
+.home {
+    padding: 4% 4% 5%;
+    margin: 10px 2%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+}
+h1 {
+    margin: 0;
+    padding: 0 0 2.3vh 0;
+}
+p {
+    font-size: 1.1rem;
+}
