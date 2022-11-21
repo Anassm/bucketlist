@@ -9,7 +9,6 @@ import Home from "./pages/Home";
 // components
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import Api from "./components/Api";
 
 function App() {
   return (
