@@ -13,6 +13,8 @@ function Home() {
         Het gaat om een bucketlist, de gebruiker kan zijn of haar items van de
         bucketlist toevoegen in de back-end, die data wordt via een Application
         programming interface (API), in deze website aangetoont.
+        <br /><br />
+        Dit project gaat niet om de looks, maar om functionaliteiten.
       </p>
     </div>
   );

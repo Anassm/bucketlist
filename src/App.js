@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 
 // components
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Api from "./components/Api";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         {/* List */}
         <Route path="/list" element={<List />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }

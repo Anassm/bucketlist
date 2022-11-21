@@ -1,4 +1,5 @@
 import classes from "./List.module.css";
+import Api from "../components/Api";
 
 function List() {
   return (
@@ -19,7 +20,7 @@ function List() {
         a little meatier? Give our generator a try… it’s tasty!
       </p>
       <h3 style={{ padding: "40px 0 0 0" }}>
-        // Hier komt de bucketlist te staan.
+        <Api />
       </h3>
     </div>
   );
