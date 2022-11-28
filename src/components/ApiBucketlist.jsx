@@ -10,31 +10,33 @@ function ApiBucketlist() {
   }, []);
 
   const fetchData = async () => {
-    const { data } = await axios.get(
-      "http://bucketlist-back-end.test/api/bucketlist"
-    );
+    const { data } = await axios.get("http://bucketlist.test/api/bucketlist");
     setServerData(data);
   };
 
   const tableCss = {
-    border: "1px solid #000",
+    border: "2px solid #000",
+    padding: "6px",
+    marginBottom: "5px",
+    textAlign: "left",
+  };
+  const tableItemCss = {
+    paddingRight: "3vw",
   };
 
   return (
     <>
+      <h1>Bucketlist</h1>
       {serverData.map((data) => (
-        <div key={data.id}>
-          <h1>Bucketlist</h1>
-          <div style={tableCss}>
-            <tr>
-              <th>Nr</th>
-              <th>Titel</th>
-            </tr>
-            <tr>
-              <td>{data.id}</td>
-              <td>{data.title}</td>
-            </tr>
-          </div>
+        <div key={data.id} style={tableCss}>
+          <tr>
+            <th style={tableItemCss}>Nr</th>
+            <th style={tableItemCss}>Titel</th>
+          </tr>
+          <tr>
+            <td style={tableItemCss}>{data.id}</td>
+            <td style={tableItemCss}>{data.title}</td>
+          </tr>
         </div>
       ))}
     </>
